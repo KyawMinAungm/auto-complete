@@ -1,0 +1,39 @@
+body {
+background-color:rgb(75, 77, 78);
+
+
+}
+
+.listContainer {
+    background-color: white;
+}
+
+.container {
+    margin-top: 100px;
+    max-width: 500px;
+
+}
+
+.inputs {
+    
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius: 0;
+    border: 0;
+}
+.productItemContainer {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    height: 60px;
+    border-bottom: solid 1px burlywood;
+}
+.productImage {
+    height: 90%;
+}
+.productName {
+    width: 80%;
+    font-size: 14px;
+}
